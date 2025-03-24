@@ -12,7 +12,7 @@ const Card = () => {
         transition: { delay: 0.2, duration: 0.5 },
       }}
       transition={{ type: "spring" }}
-      className="card rounded-md py-8"
+      className="card rounded-md py-8 text-white"
     >
       <Image src={icecream} alt="img" className="object-cover mx-auto py-2" />
       <div>
